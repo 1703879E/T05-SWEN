@@ -1,0 +1,40 @@
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse1">
+        <ul class="nav navbar-nav">
+          <li><a class="nav-link" routerLink="/hk1">Staff Attendence & Duties</a></li>
+          <li><a class="nav-link" routerLink="/hk2">Room Maintenance</a></li>
+          <li><a class="nav-link" routerLink="/hk3">Hotel Maintenance</a></li>
+          <li><a class="nav-link" routerLink="/hk4">Cooking Maintenance</a></li>
+		  <li><a class="nav-link" routerLink="/hk5">Service Crew</a></li>
+          <li><a class="nav-link" routerLink="/hk6">Other Service Duties</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<table>
+<br /><br />
+<h3>You have selected: Housekeeping</h3>
+<br />
+
+<h4 class="b">Housekeeping timing</h4>
+<br />
+
+  <h5 class="center">Edit time given for housekeeping, please give our staff at least 1 hour to clean your room.</h5>
+  <br />
+  <h5 class="center">Housekeeping services last only from 1100 hours till 1500 hours. <br /> If no timing is set, housekeeping will commence at 1100 hours</h5>
+  <br />
+  <h5><input formControlName="start" id="start" placeholder="Starting time 24hr format" /></h5>
+  <h5>till</h5>
+  <h5><input formControlName="end" id="end" placeholder="Ending time 24hr format" /></h5>
+  <br />
+  <h5><textarea formControlName="comments" id="comments" cols="50" rows="10" placeholder="Other comments"></textarea></h5>
+  <br />
+  <p><button routerLink="/homepage" class="btn btn-primary" type="submit">Save Changes</button></p>
+
+
+<br />
+<h5><button class="btn btn-primary" a routerLink="/homepage" type="submit">Return to Homepage</button></h5>
