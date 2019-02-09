@@ -1,11 +1,5 @@
 # T05-SWEN
 T05 peepole like Fag of the Rei and Zero Hnag and KrishnaTheBeast
-
-Nani
-
-
-# T05-SWEN
-T05 peepole like Fag of the Rei and Zero Hnag and KrishnaTheBeast
 # SWEN - Hotel Weeabo
 This is a submission of our hotel system for System Engineering subject.
 
