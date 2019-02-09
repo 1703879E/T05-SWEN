@@ -1,0 +1,51 @@
+<h3>Check into the hotel</h3>
+<br />
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <p>
+          <input formControlName="email" id=”email” placeholder="Your email">
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <p><input formControlName="username" id=”username” placeholder="Your passport name"></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <p>
+          <input formControlName="passport" id="passport" placeholder="Passport number">
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <p>
+          <input formControlName="unique" id="unique" placeholder="Unique code">
+        </p>
+        <br />
+        <h6>Enter your unique Id code included in the confirmation email.</h6>
+      </div>
+    </div>
+    <br />
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <a routerLink="/login"><button class="btn btn-success"> Check in now! </button></a>
+      </div>
+    </div>
+  </div>
+<br />
+<p>Please take your room card that will be dispensed once login successful!</p>
+<br />
+<!--<div *ngIf="edited" class="alert alert-success box-msg" role="alert">
+  <strong>Registration Successful!</strong> Your changes has been
+  saved.
+</div>-->
+<br />
+<div class="row">
+  <div class="col-sm-6 col-sm-offset-3">
+    <a routerLink="/login"><button class="btn btn-success"> Return to Menu </button></a>
+  </div>
+</div>
