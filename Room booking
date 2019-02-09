@@ -1,0 +1,83 @@
+<h3>Book room for hotel</h3>
+<br />
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 col-sm-offset-3">
+      <p>
+        <input formControlName="email" id=”email” placeholder="Your email">
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6 col-sm-offset-3">
+      <p><input formControlName="username" id=”username” placeholder="Your passport name"></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6 col-sm-offset-3">
+      <p>
+        <input formControlName="passport" id="passport" placeholder="Passport number">
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6 col-sm-offset-3">
+      <p>
+        <input formControlName="unique" id="unique" placeholder="Nationality">
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6 col-sm-offset-3">
+      <p>
+        <input formControlName="unique" id="unique" placeholder="Enter your credit card number">
+      </p>
+    </div>
+  </div>
+  <br />
+  <div class="row">
+    <div class="col-sm-6 col-sm-offset-3">
+      <p>
+        <input formControlName="unique" id="unique" placeholder="DD/MM/YYYY">
+      </p>
+      <h6>Enter your check in date into the textfield</h6>
+    </div>
+  </div>
+  <br />
+  <div class="row">
+    <div class="col-sm-6 col-sm-offset-3">
+      <p>
+        <input formControlName="unique" id="unique" placeholder="DD/MM/YYYY">
+      </p>
+      <h6>Enter your check out date into the texfield</h6>
+    </div>
+  </div>
+  <br />
+  <p>
+    Do note that check out timing is 11am.
+  </p>
+  <br />
+  <div class="row">
+    <div class="col-sm-6 col-sm-offset-3">
+      <h5><textarea formControlName="comments" id="comments" cols="50" rows="10" placeholder="Other comments"></textarea></h5>
+    </div>
+  </div>
+  <br />
+  <div class="row">
+    <div class="col-sm-6 col-sm-offset-3">
+      <a routerLink="/login"><button class="btn btn-success"> Book a room now! </button></a>
+    </div>
+  </div>
+</div>
+    <br />
+    <p>Do note a reciept with a Unique code will be included, do not lose this reciept.</p>
+    <br />
+    <!--<div *ngIf="edited" class="alert alert-success box-msg" role="alert">
+      <strong>Registration Successful!</strong> Your changes has been
+      saved.
+    </div>-->
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <a routerLink="/login"><button class="btn btn-success"> Return to Menu </button></a>
+      </div>
+    </div>
