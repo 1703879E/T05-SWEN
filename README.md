@@ -8,9 +8,9 @@ Supreme Leader: Chang Won Kit
 
 Member: Tay Zhun Hang
 
-Member: Udaya Krishna
-
 Member: Chia Rui Feng
+
+Phantom Member: Udaya Krishna
 
 # SWEN - Implementation
 1. Clone the Project Repository
