@@ -14,4 +14,4 @@ Phantom Member: Udaya Krishna
 1. Clone the Project Repository
 2. Run Command Prompt
 3. cd to file directory
-   type ng serve
+4.   type ng serve
