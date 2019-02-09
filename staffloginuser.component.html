@@ -1,0 +1,29 @@
+<b>Welcome Back [Insert Name]Staff </b>
+
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+<div class="container-fluid">
+ <div class="navbar-header">
+ <div class="collapse navbar-collapse" id="bs-example-navbar-collapse1">
+ <ul class="nav navbar-nav">
+ <li><a class="nav-link" routerLink="/staffloginuser">Staff user</a></li>
+ <li><a class="nav-link" routerLink="/staffloginadmin">Staff Login admin</a></li>
+  <li><a class="nav-link" routerLink="/staffinformation">Staff Information</a></li>
+   <li><a class="nav-link" routerLink="/staffduty">Staff On Duty</a></li>
+ </ul>
+ </div>
+ </div>
+ </div>
+</nav>
+
+<form [formGroup]="form">
+      <input type="radio" formControlName="food" value="beef" > Clean Floor 1
+	  <br>
+      <input type="radio" formControlName="food" value="lamb"> Clean Floor 2
+	  <br>
+      <input type="radio" formControlName="food" value="fish"> Clean Floor 3
+	  <br>
+	  <input type="radio" formControlName="food" value="fish"> Clean Floor 4
+    </form>
+
+	<br>
+<p>Once you have finished the task and stayed within your working time, you can leave for the day</p>
