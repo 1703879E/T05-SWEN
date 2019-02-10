@@ -2,13 +2,13 @@
 This is a submission of our hotel system for System Engineering subject.
 
 # SWEN - Team Members
-Supreme Leader: Chang Won Kit
+Member: Chang Won Kit
 
 Member: Tay Zhun Hang
 
 Member: Chia Rui Feng
 
-Phantom Member: Udaya Krishna
+Member: Udaya Krishna
 
 # SWEN - Implementation
 1. Clone the Project Repository
