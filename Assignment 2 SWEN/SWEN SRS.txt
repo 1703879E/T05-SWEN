@@ -1,0 +1,14 @@
+
+
+[Describe the characteristics of the users of the systems and the role they play.]
+
+
+The customers of the hotel will interact with the Local Area Recommendation System. These are the main users of the system who will use them most often, other then the IT department of the hotel for debugging and update purposes. Customers will first interact with the system when they allow the Local Area Recommendation System to give them recommendations. Users will be prompted to insert keywords of their interests, such are examples ('Historical monuments', 'Shopping malls', 'Exquisite dining'). The smart AI in the recommendation system will process and filter the keywords and the users will select the places they are interested in. The Recommendation system will give them location details, modes of transport, and total estimated costs which gives the users the abilty to plan their sightseeing and dining experiences more efficently. As a summary, the main users, the customers of the hotel will input keywords, select places they have interest in, and then are able to review the places they have interest in. 
+
+
+[Highlight any constraints such as dependency on other systems, existing hardware/software platform or technology, restriction due to organization policy or legal requirements.]
+
+The Local Area Recommendation System itself is dependent on google maps and the constant supply of  WI-FI from the hotel router. 
+
+
+[Function requirements state what the system should do e.g. the system shall allow library items to be search by Keywords, Author, Title, and Call Number. Please only include at most 3 main functions for each module.]

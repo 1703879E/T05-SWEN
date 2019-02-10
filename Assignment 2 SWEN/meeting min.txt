@@ -1,0 +1,53 @@
+q1. we have 3 functions, we have the room availibility booking module, house keeping and staff management module and reporting module
+
+q2. we have 3 lvs of user, the first level is the reception, second is management and third is admin
+the reception can access the room booking. management access to all 3 modules admin have all 3 modules and user account and login creation (create new account for staff)
+
+q3. for the room availability and booking module, the system will need to accept the last name, first name, the number of adult guest and children, contact details (hp and email), address,postal code, payment details (credit card details - credit card num and holder name and exp date), checkin details includes check in date and time and desired checkout date and time, additional remarks (e.g. king size bed and smoking/non smoking rm). checkbox with late checkout. we are able to also add aditional features if we want
+
+q4. when the hotel guest checks out, it is preferbly to checkout b4 12pm. when they checkout they bring their bagguage to the reception area and passes the bagguages and room key to the reception staff. reception staff ask if they take anything from mini bar. cleaning staff will check against the item list to see if they took anything. after tat the staff will generates a payment invoice tat calculates the amt of days they say, whether they took items in the mini bar, the guest details, the checkin and out dates, the amt of nights stayed, the rm rates, payment mode. After its generated the staff will give the invoice to the customer to check and pay.
+
+q5. for the additional features for the the room availability and booking module,pantheon system can do whatever they thinks that can benefit the business flow. another feature is to let mr wang and reception staff edit guest record as when they come in. (e.g. when the guest first arrive at the hotel, it is possible to change details like room, number of guest)
+
+q6. for the house keeping and staff module, there are 2 key features which are keep records of the staff. for example, staffname, DoB, Bank account num, address, hp, duty types(4types - general mmaintainence, room maintainence, estate maintainence and security maintainence)
+
+q7. in q6 duties
+
+q8. report module - 5 reports. 
+1. room status - list all the rooms in the hotel and respective room status ( vacant, occupied and vacant for cleaning)
+2. list all the guest in 1 room
+3. list all guest in all room 
+4. room occupancy report (used by management and admin) - display the room occupancy statistics for daily, weekly, monthly and yearly. 
+5. house keeping report - list the duties for the staff and generate house keeping schedule based on daily, weekly or monthly basis. available to management and admin
+
+q9. Additonal features for reportin module
+Preview reports before sending them to printer.
+
+q10. Budget for system
+Budget allocated is within 70k
+
+q11. Software used in where?
+A singl computer at reception staff area
+- Old computer
+- Pentium 4 PC 
+- WINDOW XP SP2
+- 1GB RAM
+-160 HDD
+- Connected to Internet via broadband connection
+- Also uses this old pc to maintain blog
+
+q12. Integration with existing software
+Won't need system to integrate with other kinds of systems
+In long term, guests can inquire about room avalibility online, not a priority
+Also, reporting module export to excel , to have numerical figures to do spreadsheets, not a priority
+If it can be accomplished within timeframe and budget, can put into project specifications
+
+q13. Backups required for system
+Non peak hours at 2-3AM if backup has to be done, do it at that time 
+Once a month on first sunday every month
+Kept in system for 5 years, can be discarded
+Peak hours is at checkout time, 11am - 12pm everyday
+
+q14. Closing avi
+Come up with prototype by end of 31st of march.
+
