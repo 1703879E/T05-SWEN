@@ -2,7 +2,7 @@
 This is a submission of our hotel system for System Engineering subject.
 
 # SWEN - Team Members
-Member: Chang Won Kit
+Leader: Chang Won Kit
 
 Member: Tay Zhun Hang
 
